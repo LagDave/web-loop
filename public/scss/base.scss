@@ -1,0 +1,59 @@
+// Imports
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&display=swap");
+// Variables
+$primaryColor: #0ec0aa;
+$grey: #445364;
+$lighterGrey: #909090;
+$lighterGreyBg: rgba(238, 238, 238, 0.507);
+
+$serif: "Poppins";
+$sansSerif: "Open Sans";
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+// Global Overrides
+*,
+* * {
+  font-family: $sansSerif;
+}
+hr {
+  border: 0.5px solid #eee !important;
+}
+p,
+a,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $grey;
+}
+p {
+  font-size: 0.9em;
+}
+.headline {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+// Bootstrap Button Overrides
+button:focus {
+  outline: 0px !important;
+}
+.btn-sm {
+  padding: 5px 25px 5px 25px !important;
+  border-radius: 1000px !important;
+}
+.btn-lg {
+  padding: 10px 35px 10px 35px !important;
+  border-radius: 1000px !important;
+}
+.btn-primary {
+  background: $primaryColor !important;
+  border: $primaryColor !important;
+}
