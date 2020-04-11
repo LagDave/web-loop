@@ -1,4 +1,4 @@
-# newapp
+# WebLoop
 
 ## Project setup
 ```
